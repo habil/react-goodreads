@@ -1,6 +1,6 @@
 {
   "name": "react-goodreads",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "goodreads React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,9 +11,9 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component --copy-files",
     "clean": "nwb clean-module && nwb clean-demo",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run build --copy-files",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",

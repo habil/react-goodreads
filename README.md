@@ -1,16 +1,62 @@
-# goodreads-react-component
+# react-goodreads# react-adsense
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+> react-goodreads is a React-component for Goodreads.
 
-Describe goodreads-react-component here.
+[![Build Status](https://travis-ci.org/hustcc/react-goodreads.svg?branch=master)](https://travis-ci.org/habil/react-goodreads)
+[![npm](https://img.shields.io/npm/v/react-adsense.svg)](https://www.npmjs.com/package/react-goodreads)
+[![npm](https://img.shields.io/npm/dm/react-goodreads.svg)](https://www.npmjs.com/package/react-adsense)
+[![npm](https://img.shields.io/npm/l/react-goodreads.svg)](https://www.npmjs.com/package/react-goodreads)
+[![demo](https://img.shields.io/badge/LiveDemo-ClickHere-ff69b4.svg)](http://git.hust.cc/react-goodreads/)
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+# 1. Install
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+```shell
+npm install --save react-goodreads
+```
+
+
+# 2. Usage
+
+```jsx
+import React, { Component } from 'react';
+import GoodReads from 'react-goodreads';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+        <GoodReads apikey="yourApiKey"/>
+        </header>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+
+# 3. Props
+
+ - Required props:
+   - `client`
+   - `slot`
+ - Optional props:
+   - `className`:
+   - `style`:
+   - `layout`:
+   - `format`:
+   - `responsive`:
+
+
+# 4. TODO
+
+ - `Baidu` advertisement supported.
+
+
+# LICENSE
+
+MIT@[hustcc](https://github.com/hustcc).
+
