@@ -1,6 +1,6 @@
-# react-goodreads# react-adsense
+# react-goodreads
 
-> react-goodreads is a React-component for Goodreads.
+> react-goodreads is a React-component for Goodreads read shelf.
 
 [![Build Status](https://travis-ci.org/hustcc/react-goodreads.svg?branch=master)](https://travis-ci.org/habil/react-goodreads)
 [![npm](https://img.shields.io/npm/v/react-adsense.svg)](https://www.npmjs.com/package/react-goodreads)
@@ -15,8 +15,11 @@
 npm install --save react-goodreads
 ```
 
-
 # 2. Usage
+
+Grab your Goodreads developer's key from [here](https://www.goodreads.com/api/keys) .
+
+Also you can use .env configuration for this.
 
 ```jsx
 import React, { Component } from 'react';
@@ -37,26 +40,11 @@ class App extends Component {
 export default App;
 ```
 
+# 3. TODO
 
-# 3. Props
-
- - Required props:
-   - `client`
-   - `slot`
- - Optional props:
-   - `className`:
-   - `style`:
-   - `layout`:
-   - `format`:
-   - `responsive`:
-
-
-# 4. TODO
-
- - `Baidu` advertisement supported.
-
+ - Custom styling
 
 # LICENSE
 
-MIT@[hustcc](https://github.com/hustcc).
+MIT@[habil](https://github.com/habil).
 
