@@ -11,7 +11,8 @@ export default class extends Component {
   }
   componentWillMount(){
     const apiKey = this.props.apikey;
-    axios.get("https://www.goodreads.com/review/list/39704220.xml?key="+apiKey+"&v=2")
+    var config = {headers: {"X-Requested-With" : "XMLHttpRequest"}};
+    axios.get("https://cors-anywhere.herokuapp.com/http://www.goodreads.com/review/list/39704220.xml?key="+apiKey+"&v=2", config)
     .then(response =>{
       let data;
       xml2json.parseString(response.data, function (err, result) {
