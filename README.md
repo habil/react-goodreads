@@ -2,11 +2,11 @@
 
 > react-goodreads is a React-component for Goodreads read shelf.
 
-[![Build Status](https://travis-ci.org/hustcc/react-goodreads.svg?branch=master)](https://travis-ci.org/habil/react-goodreads)
-[![npm](https://img.shields.io/npm/v/react-adsense.svg)](https://www.npmjs.com/package/react-goodreads)
-[![npm](https://img.shields.io/npm/dm/react-goodreads.svg)](https://www.npmjs.com/package/react-adsense)
+[![Build Status](https://travis-ci.org/habil/react-goodreads.svg?branch=master)](https://travis-ci.org/habil/react-goodreads)
+[![npm](https://img.shields.io/npm/v/react-goodreads.svg)](https://www.npmjs.com/package/react-goodreads)
+[![npm](https://img.shields.io/npm/dm/react-goodreads.svg)](https://www.npmjs.com/package/react-goodreads)
 [![npm](https://img.shields.io/npm/l/react-goodreads.svg)](https://www.npmjs.com/package/react-goodreads)
-[![demo](https://img.shields.io/badge/LiveDemo-ClickHere-ff69b4.svg)](http://git.hust.cc/react-goodreads/)
+[![demo](https://img.shields.io/badge/LiveDemo-ClickHere-ff69b4.svg)](https://www.habil.io/books/)
 
 
 # 1. Install
