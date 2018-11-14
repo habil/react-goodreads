@@ -36,6 +36,8 @@ export default class extends Component {
       return '✰✰✰✰'
     } else if(val == "5"){
       return '✰✰✰✰✰'
+    } else {
+      return 'Not rated yet'
     }
   }
 

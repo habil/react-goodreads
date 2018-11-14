@@ -1,6 +1,6 @@
 {
   "name": "react-goodreads",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "goodreads React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "glamor": "^2.20.40",
     "xml2js": "^0.4.19"
   },
   "peerDependencies": {

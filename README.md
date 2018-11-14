@@ -19,7 +19,10 @@ npm install --save react-goodreads
 
 Grab your Goodreads developer's key from [here](https://www.goodreads.com/api/keys) .
 
-Also you can use .env configuration for this.
+Component support responsive design with pure css.
+
+https://cors-anywhere.herokuapp.com/ used for cors (Goodread does not support cors yet.) (year 2018?)
+
 
 ```jsx
 import React, { Component } from 'react';
