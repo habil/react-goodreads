@@ -42,8 +42,19 @@ class App extends Component {
 
 export default App;
 ```
+# 3. Props
 
-# 3. TODO
+| Props          | Default                   | isRequired |
+|----------------|---------------------------|------------|
+| apikey         | null                      |      Y     |
+| caption        | 'My Goodreads Read Shelf' |      N     |
+| bookCoverTitle | 'Book Cover'              |      N     |
+| bookNameTitle  | 'Book Name'               |      N     |
+| startAtTitle   | 'Started At'              |      N     |
+| ratingTitle    | 'Rating'                  |      N     |
+| locales        | 'en-EN'                   |      N     |
+
+# 4. TODO
 
  - Custom styling
 

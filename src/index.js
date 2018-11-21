@@ -2,8 +2,16 @@ import React, {Component} from 'react'
 import axios from 'axios'
 import xml2json from 'xml2js'
 import Layout from './layout'
+import { css } from 'glamor'
 
+let pStyle = css({
+  color:'gray',
+  border: '1px dashed #ccc',
+  fontSize: '.85em',
+  letterSpacing: '.1em',
+  textTransform: 'uppercase'
 
+})
 export default class extends Component {
   state = {
     jsonData:[],
@@ -42,7 +50,7 @@ export default class extends Component {
   }
 
   getFormattedDate(unformattedDate){
-    return !unformattedDate.isNan ? new Date(unformattedDate).toDateString() : 'No Date';
+    return !unformattedDate.isNan ? new Date(unformattedDate).toLocaleString(this.props.locales !== undefined ? this.props.locales : 'en-EN', { timeZone: 'UTC' }) : 'No Date';
   }
 
   render() {
@@ -53,11 +61,16 @@ export default class extends Component {
                 cover={v.book[0].image_url}
                 url={v.book[0].link}
                 started={this.getFormattedDate(v.started_at)}
-                rating={this.getRating(v.rating)}/>
+                rating={this.getRating(v.rating)}
+                bookCoverTitle={this.props.bookCoverTitle}
+                bookNameTitle={this.props.bookNameTitle}
+                startAtTitle={this.props.startAtTitle}
+                ratingTitle={this.props.ratingTitle}/>
     })
 
     return(
       <div>
+        <p {...pStyle}>{this.props.caption !== undefined ? this.props.caption : 'My Goodreads Read Shelf'}</p>
         {layout}
       </div>
     )

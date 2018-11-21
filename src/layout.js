@@ -81,18 +81,18 @@ const Layout = (props) => {
             <table {...tablecss}>
                 <thead {...thead}>
                 <tr {...tr}>
-                    <th {...th} scope="col">Book Cover</th>
-                    <th {...th} scope="col">Book Name</th>
-                    <th {...th} scope="col">Started At</th>
-                    <th {...th} scope="col">Rating</th>
+                    <th {...th} scope="col">{props.bookCoverTitle !== undefined ? props.bookCoverTitle : 'Book Cover'}</th>
+                    <th {...th} scope="col">{props.bookNameTitle !== undefined ? props.bookNameTitle : 'Book Name'}</th>
+                    <th {...th} scope="col">{props.startAtTitle !== undefined ? props.startAtTitle : 'Started At'}</th>
+                    <th {...th} scope="col">{props.ratingTitle !== undefined ? props.ratingTitle : 'Rating'}</th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr {...tr}>
-                    <td {...td} data-label="Book Cover"><img src={props.cover}/></td>
-                    <td {...td} data-label="Book Name"><a {...a} href={props.url} target="_blank" rel="noopener noreferrer">{props.name}</a></td>
-                    <td {...td} data-label="Started At">{props.started}</td>
-                    <td {...td} data-label="Rating">{props.rating}</td>
+                    <td scope="row" {...td} data-label={props.bookCoverTitle !== undefined ? props.bookCoverTitle : 'Book Cover'}><img src={props.cover}/></td>
+                    <td {...td} data-label={props.bookNameTitle !== undefined ? props.bookNameTitle : 'Book Name'}><a {...a} href={props.url} target="_blank" rel="noopener noreferrer">{props.name}</a></td>
+                    <td {...td} data-label={props.startAtTitle !== undefined ? props.startAtTitle : 'Started At'}>{props.started}</td>
+                    <td {...td} data-label={props.ratingTitle !== undefined ? props.ratingTitle : 'Rating'}>{props.rating}</td>
                 </tr>
                 </tbody>
             </table>
