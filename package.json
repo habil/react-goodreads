@@ -25,12 +25,12 @@
     "xml2js": "^0.4.19"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "16.7"
   },
   "devDependencies": {
-    "nwb": "0.23.x",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "nwb": "0.23.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "author": "Habil Bozali<habil@bozali.com>",
   "homepage": "https://habil.io",
