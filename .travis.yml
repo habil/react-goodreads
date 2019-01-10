@@ -16,7 +16,7 @@ branches:
     - master
 addons:
   sonarcloud:
-    organization: "sonarcloud"
+    organization: "habil-github"
 
 script:
   - sonar-scanner
