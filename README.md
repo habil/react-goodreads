@@ -7,6 +7,9 @@
 [![npm](https://img.shields.io/npm/dm/react-goodreads.svg)](https://www.npmjs.com/package/react-goodreads)
 [![npm](https://img.shields.io/npm/l/react-goodreads.svg)](https://www.npmjs.com/package/react-goodreads)
 [![demo](https://img.shields.io/badge/LiveDemo-ClickHere-ff69b4.svg)](https://www.habil.dev/books/)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=react%3Agoodreads&metric=alert_status)](https://sonarcloud.io/dashboard?id=react%3Agoodreads)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=react%3Agoodreads&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=react%3Agoodreads)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=react%3Agoodreads&metric=security_rating)](https://sonarcloud.io/dashboard?id=react%3Agoodreads)
 
 
 # 1. Install
