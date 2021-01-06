@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "nwb": "0.25.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "author": "Habil Bozali<habil@bozali.com>",
   "homepage": "https://habil.dev",
